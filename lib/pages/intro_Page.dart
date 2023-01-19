@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:shopnow/pages/homePage.dart';
+import 'package:shopnow/Screens/homePage.dart';
 
 class IntroPage extends StatelessWidget {
   const IntroPage({super.key});
@@ -53,7 +52,7 @@ class IntroPage extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return HomePage();
+                    return const ScreenHome();
                   },
                 ),
               ),
